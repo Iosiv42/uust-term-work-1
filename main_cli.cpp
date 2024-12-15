@@ -33,7 +33,7 @@ Interpolator *intp_by_name(string name) {
         ptr = new Interpolators::Linear();
     } else if (name == "fourier") {
         ptr = new Interpolators::Fourier();
-    } else if (name == "Lanczos") {
+    } else if (name == "lanczos") {
         ptr = new Interpolators::Lanczos();
     }
 
